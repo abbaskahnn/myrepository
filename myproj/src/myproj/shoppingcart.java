@@ -10,18 +10,12 @@ public class shoppingcart {
 	private static shoppingcart instance = new shoppingcart();
 	String objectToSell1;
 	String objectToSell2;
-	float object_1_Price1=10.0f;
-	float object_1_Price2=12.0f;
+	float object_1_Price1;
+	float object_1_Price2;
 	float total_cart;
 	
 	Scanner sc = new Scanner(System.in);
 
-
-
-
-	
-	
-	
 	public shoppingcart()
 	{
 		
